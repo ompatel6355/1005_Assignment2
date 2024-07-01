@@ -15,18 +15,14 @@ const App = () => {
         return unsubscribe;
     }, []);
 
-    return ( <
-        Router >
-        <
-        div > {
+    return (<Router>
+        <div> {
             user ? ( <
                 Dashboard / >
             ) : ( <
                 AuthPage / >
             )
-        } <
-        /div> <
-        /Router>
+        } </div> </Router>
     );
 };
 
